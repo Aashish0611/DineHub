@@ -1,0 +1,711 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(64, 63, 63);
+    color: white;
+}
+nav{
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    z-index: 1000;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-inline: 22px;
+}
+.logo{
+    color: white;
+    font-size: 21px;
+}
+.main{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    margin-top: 141px;
+}
+.main img {
+        width: 400px; 
+        height: 400px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+}
+    
+.mainText{
+    margin-top: 44px;
+}
+.main h1{
+    font-size: 44px;
+}
+.main p{
+    margin-top: 22px;
+    color: rgb(225, 224, 224);
+}
+.main button{
+    width: 140px;
+    height: 39px;
+    background-color: rgb(255, 83, 20);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 22px;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.foods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foodCard{
+    width: 300px;
+    padding: 11px;
+    background-color: #fff;
+    margin-inline: 22px;
+    margin-top: 26px;
+    color: black;
+    cursor: pointer;
+    
+}
+.foodCard img{
+    width: 100%;
+    border-radius: 15px;
+}
+.foodCard p{
+    padding: 7px;
+}
+.foodCard button{
+    width: 130px;
+    background-color: orangered;
+    color: white;
+    padding: 3px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.Founder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.FounderCard{
+    width: 300px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    margin-inline: 22px;
+    color: black;
+    border-radius: 11px;
+    margin-top: 22px;
+}
+.FounderCard img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(64, 63, 63); /* Set background to gray */
+  color: #f4f4f4; /* Light text for contrast */
+  padding: 20px;
+}
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for overall theme */
+  color: #f4f4f4;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Review Section Container */
+.review-section {
+  max-width: 600px; /* Limits the width to make it smaller */
+  margin: 20px auto; /* Centers the section and adds space from top and bottom */
+  padding: 20px; /* Adds internal spacing */
+  background-color: #333; /* Dark background for contrast */
+  border-radius: 8px; /* Rounds the corners for a sleek look */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+  color: #f4f4f4; /* Light text color for readability */
+}
+
+/* Adjust Header */
+.review-section h2 {
+  text-align: center; /* Centers the header text */
+  margin-bottom: 15px; /* Adds space below the title */
+  color: #fff; /* White color for title */
+  font-size: 1.5rem; /* Slightly smaller font for compact design */
+}
+
+/* Review Container */
+.review {
+  margin: 10px 0; /* Adds vertical spacing between reviews */
+  padding: 10px; /* Adds internal spacing within each review */
+  border: 1px solid #444; /* Adds a subtle border to separate reviews */
+  border-radius: 5px; /* Rounds the edges */
+  background-color: #222; /* Slightly darker background for individual reviews */
+}
+
+/* Flexbox for Review Header */
+.review-header {
+  display: flex;
+  justify-content: space-between; /* Ensures proper alignment */
+  align-items: center; /* Vertically aligns elements */
+  gap: 10px; /* Adds spacing between items */
+}
+
+/* Username Styling */
+.username {
+  flex: 1; /* Allocates space to the username */
+  font-weight: bold;
+  font-size: 1rem; /* Slightly smaller font for compact design */
+  color: #f4f4f4;
+  text-align: left; /* Aligns text to the left */
+}
+
+/* Stars (Rating) Styling */
+.stars {
+  flex: 0; /* Prevents stretching */
+  text-align: center; /* Centers stars */
+  font-size: 1.1rem; /* Slightly smaller stars for compact design */
+  color: gold;
+  white-space: nowrap;
+}
+
+/* Description Styling */
+.description {
+  flex: 2; /* Allocates more space to the description */
+  font-size: 0.9rem; /* Smaller font for a compact design */
+  color: #ddd;
+  text-align: right;
+}
+
+
+
+
+.description {
+  margin-bottom: 5px;
+}
+
+/* Feedback Section */
+.feedback {
+  max-width: 95%;
+  margin: 1rem auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feedback form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+button {
+  background-color: #0aff54;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0aff54;
+}
+
+/* Booking Section */
+#booking {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  gap: 1cm; /* Gap of 1 cm between form and map */
+  padding: 10px;
+  background-color: #333; /* Matches the dark background */
+  border-radius: 8px; /* Rounded edges for better aesthetics */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+}
+
+/* Booking Container */
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1cm;
+  flex-wrap: wrap;
+  max-width: 800px; /* Restricts overall width */
+}
+
+/* Form Styling */
+form {
+  flex: 1; /* Allows form to resize proportionally */
+  min-width: 250px; /* Minimum width for smaller screens */
+  max-width: 400px; /* Restricts the form width */
+  padding: 20px;
+  border: 1px solid #444; /* Matches the dark theme */
+  border-radius: 8px;
+  background-color: #222; /* Darker background for contrast */
+  color: #f4f4f4; /* Light text for readability */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #444; /* Matches the theme */
+  color: #fff; /* Light text */
+}
+
+form input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+form button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+form button:hover {
+  background-color: darkgreen;
+}
+
+/* Table Styling */
+#booking table {
+  width: 100%;
+}
+
+#booking table td {
+  padding: 10px 0;
+  color: #ddd; /* Light text for labels */
+}
+
+/* Map Section */
+.map {
+  flex: 1;
+  min-width: 250px; /* Minimum width for smaller screens */
+  max-width: 400px; /* Restricts map width */
+  padding: 15px;
+  background-color: #222; /* Matches the form background */
+  border: 1px solid #444; /* Matches the form border */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.map h2 {
+  color: #f4f4f4; /* Matches the form text */
+}
+
+.map iframe {
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  border: none;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .booking-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+
+  form,
+  .map {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+
+  .map iframe {
+    height: 200px; /* Reduce height for smaller screens */
+  }
+}
+
+/* Popup Notification */
+#popupNotification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  animation: fadeInOut 3s forwards;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .review-header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .feedback, .review-section {
+      padding: 15px;
+  }
+
+  #booking {
+      flex-direction: column;
+  }
+
+  form {
+      margin: 0;
+  }
+
+  .map iframe {
+      height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2, h3 {
+      font-size: 1.2em;
+  }
+
+  .feedback, .review-section, form {
+      padding: 10px;
+  }
+
+  input, textarea, select, button {
+      padding: 8px;
+      font-size: 0.9em;
+  }
+
+  .map iframe {
+      height: 150px;
+  }
+}
+
+
+
+
+
+.logo {
+  color: white;
+  font-size: 21px;
+}
+
+
+
+  
+  
+  /* Additional responsive layout adjustments */
+  @media screen and (max-width: 1100px) {
+    .main {
+      display: block;
+      text-align: center;
+    }
+  
+    .main img {
+      margin-top: 22px;
+    }
+  }
+  
+  @media screen and (max-width: 920px) {
+    .trends {
+      width: 90%;
+    }
+  
+    .trendFood img {
+      width: 200px;
+      margin-inline: 6px;
+    }
+  }
+  
+  @media screen and (max-width: 670px) {
+    .trends {
+      width: 90%;
+    }
+  
+    .trendFood img {
+      width: 80px;
+      height: 130px;
+      margin-inline: 3px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    ul li {
+      display: none;
+    }
+  
+    #bar {
+      display: block;
+    }
+  
+    .main img {
+      width: 90%;
+      border-radius: 11px;
+    }
+  
+    .main h1 {
+      font-size: 31px;
+    }
+  
+    .cardDetail {
+      width: 70%;
+    }
+  
+    .cardDetail img {
+      width: 200px;
+    }
+  }
+
+  
+
+
+
+  
+.trends{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1; 
+}
+.trendFood{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+   transition: all 1s ease;
+}
+.trendFood img{
+        width: 250px; 
+        height: 250px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        margin-inline: 12px; 
+    }
+    
+
+
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.blogCard {
+  width: 300px;
+  height: auto; /* Allow height to adjust based on content */
+  background-color: #fff;
+  color: black;
+  margin-inline: 22px;
+  padding: 11px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  align-items: center;
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+
+.blogCard img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.blogCard p {
+  margin-top: 10px; /* Adds spacing between the image and text */
+  text-align: center; /* Center-aligns the text */
+  font-size: 1rem; /* Adjusts text size */
+  color: #333; /* Slightly darker text for readability */
+}
+
+.blogCard a {
+  margin-top: 15px; /* Adds gap above the button */
+  padding: 8px 16px; /* Adjust button padding for better spacing */
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded button */
+  font-size: 0.9rem; /* Slightly smaller text for button */
+  display: inline-block; /* Ensures proper spacing and positioning */
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Button shadow */
+}
+
+.blogCard a:hover {
+  background-color: darkorange; /* Change color on hover */
+}
+
+
+
+
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* Add specific gap between the form and the map */
+.booking-container {
+    margin-left: 1cm; /* Set gap of 1cm */
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 66px;
+    margin-top: 66px;
+
+}
+.text{
+    margin-top: 22px;
+}
+.text p{
+    margin-top: 11px;
+}
+.cardDetail{
+    width: 500px;
+    padding: 32px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 11px;
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    color: black;
+}
+.cardDetail img{
+    width: 300px;
+}
+.cardDetail i{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    font-size: 25px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        margin-top: 22px;
+    }
+}
+
+
+@media screen and (max-width:920px){
+    .trends{
+        width: 90%;
+    }
+    .trendFood img{
+        width: 200px;
+        margin-inline: 6px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .trends{
+        width: 90%;
+    }
+    .trendFood img{
+        width: 80px;
+        height: 130px;
+        margin-inline: 3px;
+    }
+}
+
+#bar{
+    display: none;
+    font-size: 26px;
+}
+@media screen and (max-width:750px){
+   ul li{
+    display: none;
+   }
+   #bar{
+    display: block;
+   }
+   .main img{
+    width: 90%;
+    border-radius: 11px;
+   }
+   .main h1{
+    font-size: 31px;
+   }
+   .cardDetail{
+    width: 70%;
+   }
+   .cardDetail img{
+    width: 200px;
+   }
+}
+
+
+

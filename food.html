@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine Hub Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>DINE HUB</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#food">Foods</a></li>
+                <li><a href="#trend">Trends</a></li>
+                <li><a href="#Founder">Founder's</a></li>
+                <li><a href="#blog">Blog's</a></li>
+                <i id="bar" class="fa-solid fa-bars"></i>
+
+            </ul>
+        </nav>
+
+        <div class="main">
+            <div class="mainText">
+                <h1>Discover the Best Food & <br>
+                    Drinks in Dine Hub</h1>
+                <p>Dine Hub serves dishes from everywhere. <br>
+                    Inspired flavors bring joy to dining. <br>
+                    Cozy atmosphere for memorable moments.</p>
+                <button>
+                    <a href="https://www.zomato.com/dehradun/global-cloudtail-paltan-bazaar/order"> Explore Foods</a>
+                </button>
+            </div>
+            <img src="image/front1.jpg" alt="">
+        </div>
+
+        <div id="food">
+            <div class="head">
+                <h1>Our Foods</h1>
+            </div>
+            <div class="foods">
+                <div class="foodCard">
+                    <img src="image/food1.jpg" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                    
+                </div>
+                <div class="foodCard">
+                    <img src="image/food2.jpg" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                    
+                </div>
+                <div class="foodCard">
+                    <img src="image/food3.JPG" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                
+                </div>
+                <div class="foodCard">
+                    <img src="image/food4.jpeg" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                    
+                </div>
+                <div class="foodCard">
+                    <img src="image/food5.JPG" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                    
+                </div>
+                <div class="foodCard">
+                    <img src="image/food6.jpg" alt="">
+                    <p>Rosted chicken Bowl <br>Succulent roasted chicken on quinoa <br>Fresh veggies and signature sauce.</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="Founder">
+            <div class="head">
+                <h1>Founder's</h1>
+            </div>
+            <div class="Founder">
+                <div class="FounderCard">
+                    <img src="image/r1 (1).jpg" alt="">
+                    <p> Founder<br>Aashish Gupta</p>
+                </div>
+                <div class="FounderCard">
+                    <img src="image/r1 (2).jpg" alt="">
+                    <p>Co-Founder<br> Deepak Prajapati</p>
+                </div>
+                <div class="FounderCard">
+                    <img src="image/r1 (3).jpg" alt="">
+                    <p>CEO<br>Sahil kumar jakhar </p>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+       
+          
+
+        <div class="review-section">
+            <h2>Customer Reviews</h2>
+        
+            <!-- Container to display reviews -->
+            <div id="reviewList">
+                <!-- Existing Reviews -->
+                <div class="review">
+                    <div class="review-header">
+                        <div class="username">Ashutosh Pandey</div>
+                        <div class="stars">
+                            <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        </div>
+                        <div class="description">
+                            Great product! Really enjoyed using it. Highly recommend.
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="review">
+                    <div class="review-header">
+                        <div class="username">Suumit Tiwari</div>
+                        <div class="stars">
+                            <span>&#9733;&#9733;&#9733;&#9733;</span>
+                        </div>
+                        <div class="description">
+                            Good quality but the delivery was a bit late. Otherwise, satisfied.
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="review">
+                    <div class="review-header">
+                        <div class="username">Satish Singh</div>
+                        <div class="stars">
+                            <span>&#9733;&#9733;&#9733;</span>
+                        </div>
+                        <div class="description">
+                            Product is decent, but it didn’t meet my expectations. Could be improved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Feedback Section -->
+            <div class="feedback">
+                <h3>Leave Your Feedback</h3>
+                <form id="feedbackForm" action="javascript:void(0);">
+                    <label for="username">Your Name:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+        
+                    <label for="review">Your Feedback:</label>
+                    <textarea id="review" name="review" rows="4" placeholder="Write your review here" required></textarea>
+        
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="1">&#9733; 1 Star</option>
+                        <option value="2">&#9733;&#9733; 2 Stars</option>
+                        <option value="3">&#9733;&#9733;&#9733; 3 Stars</option>
+                        <option value="4">&#9733;&#9733;&#9733;&#9733; 4 Stars</option>
+                        <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733; 5 Stars</option>
+                    </select>
+                    <div class="stars">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    </div>
+                    
+        
+                    <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+        
+            
+            
+                    
+        
+
+        <div id="trend">
+            <div class="head">
+                <h1>Trending Foods</h1>
+            </div>
+            <div class="trends">
+                <div class="trendFood">
+                    <img src="image/food1.JPG" alt="">
+                    <img src="image/food2.jpg" alt="">
+                    <img src="image/food3.JPG" alt="">
+
+                </div>
+                <div class="trendFood">
+                    <img src="image/blg1.jpg" alt="">
+                    <img src="image/blg2.JPG" alt="">
+                    <img src="image/blg3.JPG" alt="">
+
+                </div>
+                <div class="trendFood">
+                    <img src="image/blg6.jpg" alt="">
+                    <img src="image/blg4.JPG" alt="">
+                    <img src="image/blg5.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="blog">
+            <div class="head">
+                <h1>Read Blog's</h1>
+            </div>
+            <div class="blogs">
+                <div class="blogCard">
+                    <img src="image/blg2.JPG" alt="">
+                    <p>Read Latest Blogs</p>
+                    <a href="https://pinchofyum.com/">Read More</a>
+                </div>
+                <div class="blogCard">
+                    <img src="image/blg3.JPG" alt="">
+                    <p>Read Latest Blogs</p>
+                    <a href="https://pinchofyum.com/">Read More</a>
+                </div>
+                <div class="blogCard">
+                    <img src="image/blg5.jpg" alt="">
+                    <p>Read Latest Blogs</p>
+                    <a href="https://pinchofyum.com/">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+  <!-- Table Booking Section -->
+  <div id="booking">
+    <div class="booking-container">
+        <form id="bookingForm">
+            <h2>Book a Table</h2>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date:</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="time">Time:</label></td>
+                    <td><input type="time" id="time" name="time" required></td>
+                </tr>
+                <tr>
+                    <td><label for="guests">Number of Guests:</label></td>
+                    <td><input type="number" id="guests" name="guests" min="1" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Book Table</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <div class="map">
+            <h2>Location: Global Restro</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134563.31006947333!2d76.5848658952099!3d28.194926455614396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c76e1435d90ff%3A0x24a21768b0b8352a!2sBhiwadi%2C%20Rajasthan%2C%20India!5e0!3m2!1sen!2sus!4v1699191458135!5m2!1sen!2sus" 
+                width="400" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Popup Notification -->
+<div id="popupNotification">Your table has been booked successfully!</div>
+
+
+
+
+<!-- footer section -->
+        <div class="footer">
+            <div class="text">
+                <h3>About US</h3>
+                <p>Dine Hub offers diverse global cuisines.<br>
+                    Fresh ingredients sourced from local suppliers. <br>
+                    Warm ambiance perfect for gatherings. <br>
+                    Exceptional service dedicated to guests.</p>
+
+
+            </div>
+            <div class="text">
+                <h3>Our Food</h3>
+                <p>Quality</p>
+                <p>Affordable</p>
+                <p>Best Price</p>
+                <p>Low Cost</p>
+
+            </div>
+            <div class="text">
+                <h3>Offers</h3>
+                <p>20% OFF</p>
+                <p>Free 1st meal</p>
+                <p>quality</p>
+                <p>Affordable</p>
+
+            </div>
+            <div class="text">
+                <h3>Connect Us</h3>
+                <p>LinkedIn</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+                <p>Facebook</p>
+
+            </div>
+        </div>
+
+        
+        <!-- Copyright Notice -->
+<footer style="text-align: center; padding: 20px; background-color: black; color: white;">
+    <p>&copy; 2024 Dine Hub. All Rights Reserved.</p>
+</footer>
+    </div>
+    <script src="food.js"></script>
+</body>
+</html>
